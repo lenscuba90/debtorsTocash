@@ -61,7 +61,7 @@ fi
 sudo usermod -aG docker $USER
 
 echo "Step 6 $(date +"%T") : Installing Project Specific NPM Packages from package.json"
-cd /home/len/debtorsTocash.com
+cd /home/len/debtorsTocash
 npm install
 
 echo "Script execution for reusable setup completed."
